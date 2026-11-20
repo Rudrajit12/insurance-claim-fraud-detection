@@ -4,6 +4,8 @@
 >
 > This project is an educational prototype that scores motor-insurance claims for potential fraud risk and prioritizes a limited number of claims for human investigation. It is **not** an automated claim rejection system, and model scores are not proof of fraud.
 
+**Live Streamlit App:** https://insurance-claim-fraud-detection-eannpyyxuxjquqdvfpshjm.streamlit.app/
+
 ---
 
 ## 1. Executive summary
