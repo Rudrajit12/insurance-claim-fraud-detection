@@ -1,0 +1,20 @@
+# Core data processing
+pandas
+numpy
+
+# Machine Learning
+scikit-learn==1.9.1
+joblib
+
+# Dashboard & Visualization
+streamlit
+plotly
+
+# Optional model analysis and notebooks
+matplotlib
+seaborn
+xgboost
+shap
+
+# Testing
+pytest

@@ -1,0 +1,98 @@
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# =========================
+# Jupyter
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE / Editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Environment & Secrets
+# =========================
+.env
+.env.*
+!.env.example
+
+.streamlit/secrets.toml
+
+# =========================
+# Testing / Coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Generated data
+# =========================
+data/processed/*
+!data/processed/.gitkeep
+
+# Raw data - ignore unless redistribution is permitted
+# Uncomment if you want raw data excluded from Git:
+# data/raw/*
+
+# =========================
+# Model artifacts
+# =========================
+
+# Ignore all model artifacts by default
+models/*
+
+# Keep the final model needed for dashboard inference
+!models/fraud_model_pipeline.joblib
+
+# =========================
+# Reports
+# =========================
+
+# Ignore generated reports by default
+reports/*
+
+# Keep useful portfolio reports
+!reports/training_report.json
+!reports/.gitkeep
+
+# =========================
+# Streamlit
+# =========================
+.streamlit/cache/
+
+# =========================
+# Build / packaging
+# =========================
+build/
+dist/
+*.egg-info/
